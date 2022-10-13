@@ -1,5 +1,3 @@
 chmod +x a.sh
 bash a.sh
-
-cd /home/bkns
-curl -s --upload-file proxy.txt https://transfer.sh/proxy.txt
+curl -s --upload-file /home/bkns/proxy.txt https://transfer.sh/proxy.txt
