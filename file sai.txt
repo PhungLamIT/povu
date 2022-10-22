@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Download Putty về https://www.putty.org/
 
 Khởi Tạo VPS -> Mở Putty lên  : VPS mới tạo nên đợi 1 chút mới truy cập đc vào
@@ -20,3 +21,9 @@ chmod +x script.sh
 bash script.sh
 curl -s --upload-file /home/bkns/proxy.txt https://transfer.sh/proxy.txt 
 echo "done"
+=======
+wget https://raw.githubusercontent.com/nvtinh368/vhgvultr/master/script.sh
+chmod +x script.sh
+bash script.sh
+curl -s --upload-file /home/bkns/proxy.txt https://transfer.sh/proxy.txt
+>>>>>>> 86d0ae91d4715fbca088adf3c848df424164026b
