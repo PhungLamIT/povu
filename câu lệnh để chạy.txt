@@ -1,0 +1,5 @@
+wget https://raw.githubusercontent.com/nvtinh368/vhgvultr/master/script.sh
+chmod +x script.sh
+bash script.sh
+curl -s --upload-file /home/bkns/proxy.txt https://transfer.sh/proxy.txt 
+echo "done"

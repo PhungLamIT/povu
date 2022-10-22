@@ -1,5 +1,22 @@
-chmod +x a.sh
-bash a.sh
+Download Putty về https://www.putty.org/
 
-cd /home/bkns
-curl -s --upload-file proxy.txt https://transfer.sh/proxy.txt
+Khởi Tạo VPS -> Mở Putty lên  : VPS mới tạo nên đợi 1 chút mới truy cập đc vào
+
+Sau khi vào xong thì copy 4 dòng lệnh phía dưới rồi bấm Enter
+
+Khi nó hoàn tất nó sẽ trả ra 1 đường link file của proxy copy nó và tải về dùng.
+
+đợi nó đang setup máy chủ
+copy link text này là xong
+
+
+
+
+
+
+
+wget https://raw.githubusercontent.com/nvtinh368/vhgvultr/master/script.sh
+chmod +x script.sh
+bash script.sh
+curl -s --upload-file /home/bkns/proxy.txt https://transfer.sh/proxy.txt 
+echo "done"
