@@ -1,4 +1,4 @@
-wget https://raw.githubusercontent.com/nvtinh368/vhgvultr/master/script.sh
+wget https://raw.githubusercontent.com/PhungLamIT/povu/master/script.sh
 chmod +x script.sh
 bash script.sh
 
